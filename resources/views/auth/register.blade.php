@@ -2,7 +2,7 @@
 @section('title', 'Register')
 
 @section('content')
-    <section class="w-full flex items-center justify-center" style="min-height: 90vh;">
+    <section class="w-full flex items-center justify-center px-5" style="min-height: 90vh;">
         <form action="/register" method="POST" class="w-full md:w-6/12 shadow-lg p-6 bg-white rounded-md">
             <br>
             <h1 class="text-5xl font-bold text-slate-600">Register</h1>
