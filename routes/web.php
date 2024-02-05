@@ -17,7 +17,17 @@ Route::get('/', function () {
     return view('landing_page');
 });
 
-// login route
+// login get route
 Route::get('/login', function () {
+    return view('auth/login');
+});
+
+// Register get route
+Route::get('/register', function () {
+    return view('auth/register');
+});
+
+// Login post route
+Route::post('/login', function () {
     return view('auth/login');
 });
